@@ -42,8 +42,8 @@ return {
             })
 
             require("mason-lspconfig").setup {
-                ensure_installed = { "lua_ls", "vimls", "bashls" },
-                automatic_enable = { 'lua_ls', 'vimls', 'bashls' }
+                ensure_installed = { "lua_ls", "vimls", "bashls", "rust_analyzer" },
+                automatic_enable = { "lua_ls", "vimls", "bashls", "rust_analyzer" }
             }
             require("neodev").setup()
 
